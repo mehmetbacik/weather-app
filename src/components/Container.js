@@ -1,10 +1,10 @@
 import React from 'react'
-import  Cities  from './Cities'
+import  DropDown  from './DropDown'
 import Days from './Days'
 function Container() {
   return (
     <div>
-      <Cities/>
+      <DropDown/>
       <Days/>
     </div>
   )

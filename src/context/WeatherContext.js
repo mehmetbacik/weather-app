@@ -4,7 +4,7 @@ import axios from 'axios';
 const WeatherContext = createContext();
 export const WeatherProvider = ({children}) => {
     const cities = data
-    const [city,setCity] = useState("Ankara")
+    const [city,setCity] = useState("İstanbul")
     const [weatherData,setWeatherData] = useState([])
     useEffect(()=>{
         let selectCities = data.filter(item => item.name===city)[0]

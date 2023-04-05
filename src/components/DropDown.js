@@ -1,12 +1,12 @@
 import React from 'react';
-import{ Cities} from 'react-bootstrap';
+import{ Dropdown} from 'react-bootstrap';
 import { useWeatherContext } from '../context/WeatherContext'
 import "../App.css"
-function Cities() {
+function DropDown() {
   const { city, setCity, cities } = useWeatherContext()
   return (
     <div className='header'>
-      <Cities className='dropdown'>
+      <Dropdown className='dropdown'>
         <Dropdown.Toggle variant="secondary" id="dropdown-basic">
           {`${city}\n`}
         </Dropdown.Toggle>
@@ -21,7 +21,7 @@ function Cities() {
           }
         </Dropdown.Menu>
 
-      </Cities>
+      </Dropdown>
 
     </div>
 
@@ -29,4 +29,4 @@ function Cities() {
   )
 }
 
-export default React.memo(Cities)
+export default React.memo(DropDown)

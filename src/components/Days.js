@@ -4,7 +4,7 @@ import { useWeatherContext } from '../context/WeatherContext'
 
 function Days() {
     let { weatherData } = useWeatherContext()
-    console.log(weatherData)
+    //console.log(weatherData)
     return (
         <>
             <CardGroup className={'text-center mt-3'}>
