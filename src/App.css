@@ -68,5 +68,8 @@ html, body {
     width: 100%;
     text-align: left;
   }
+  .App #weather__app .dropdown .select{
+    width: 100%;
+  }
 }
 
