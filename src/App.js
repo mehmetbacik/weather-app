@@ -8,9 +8,9 @@ function App() {
       <div className='container'>
         <div id='weather__app'>
           <div className='row'>
-            <div className='col col-12'>
+            <div className='col col-12 headline'>
               <span>Weather</span>
-              <p>7 Days Forecast</p>
+              <p>Days Forecast</p>
             </div>
             <div className='col col-12'>
               <WeatherProvider>

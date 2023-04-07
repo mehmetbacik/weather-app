@@ -7,7 +7,7 @@ function DropDown() {
   return (
     <div className='header'>
       <Dropdown className='dropdown'>
-        <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+        <Dropdown.Toggle variant="secondary">
           {`${city}\n`}
         </Dropdown.Toggle>
 

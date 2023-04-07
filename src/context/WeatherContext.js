@@ -26,7 +26,7 @@ export const WeatherProvider = ({children}) => {
         return <div>Loading...</div>
       }
     return (
-        <WeatherContext.Provider value={values }>{children}</WeatherContext.Provider>
+        <WeatherContext.Provider value={values}>{children}</WeatherContext.Provider>
     )
 }
 

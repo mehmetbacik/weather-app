@@ -18,9 +18,9 @@ function Days() {
                             <Card key={index} bg={index===0 ? 'secondary':''} text={index===0 ? 'white':''}>
                                 <Card.Body className='cardBody'>
                                     <Card.Title>{day}</Card.Title>
-                                    <img variant='top' src={item.day.condition.icon} alt="desc" className='cardImage'></img>
+                                    <img variant='top' src={item.day.condition.icon} alt="img"></img>
                                 </Card.Body>
-                                <Card.Footer className='cardFooter'>
+                                <Card.Footer>
                                     <small><b>{item.day.maxtemp_c}°C</b> {item.day.mintemp_c}°C</small>
                                 </Card.Footer>
                             </Card>                         
