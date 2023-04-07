@@ -53,8 +53,8 @@ html, body {
     font-size: 30px;
 }
 
-.App #weather__app .dropdown{
- background-color:var(--white); 
+.App #weather__app .dropdown {
+ background-color:transparent; 
  border-radius: 10px;
 }
 
@@ -62,3 +62,11 @@ html, body {
  max-height: 300px;
  overflow-y: auto;
 }
+
+@media (max-width: 734px) { 
+  .App #weather__app .dropdown button {
+    width: 100%;
+    text-align: left;
+  }
+}
+
