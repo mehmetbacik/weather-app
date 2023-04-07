@@ -1,10 +1,43 @@
-.App{
-  margin: auto;
- width: 75%;
- height: auto;
- margin-top: 3%;
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap');
+
+:root {
+  --theme-font: 'Bai Jamjuree', sans-serif;
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+}
+
+body {
+  background-image: url(../public/img/weather-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
 
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App #weather__app {
+  font-size: 20px;
+  font-family: var(--theme-font);
+  background-color: #ffffff4f;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+
+
+
 .header{
  background-color:rgb(237, 228, 228);
  
@@ -16,13 +49,4 @@
 .select{
  max-height: 300px;
  overflow-y: scroll;
-}
-.cardImage{
- width: 50px;
-}
-.cardFooter{
- height: 50px;
-}
-.footer{
- color: black;
 }
